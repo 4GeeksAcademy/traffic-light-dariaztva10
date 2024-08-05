@@ -1,13 +1,15 @@
+
 .container {
 justify-content: center;
 display: grid;
-padding: 5%;
-}
 
+
+
+}
 .semaforo {
 width: 20vh;
-height: 40vh;
-background-color: black;
+height: 50vh;
+background-color:rgb(31, 31, 31);
 padding: 10px;
 justify-content: center;
 display: grid;
@@ -15,14 +17,12 @@ border-radius: 25%;
 box-shadow: 3px 2px 4px 6px rgb(84, 84, 82);
 }
 
-
-
 .paloSemaforo {
     width: 3vh;
-    height: 40vh;
-    background-color: black;
+    height: 20vh;
+    background-color: rgb(31, 31, 31);
     margin-left: 8vh;
-    box-shadow: 7px 7px 7px 7px rgb(84, 84, 82);
+    box-shadow: 2px 2px 2px 2px rgb(84, 84, 82);
 }
 .red{
     background-color: red;
@@ -46,7 +46,25 @@ box-shadow: 3px 2px 4px 6px rgb(84, 84, 82);
     border-radius: 99%;
     
 }
+.purple{
+    
+    background-color: purple;
+    width: 12vh;
+    height: 12vh;
+    border-radius: 99%;
+}
 
+.especialMorado{
+    background-color: rgb(255, 255, 255);
+    width: 12vh;
+    height: 12vh;
+    border-radius: 99%;
+   
+}
+.btn{
+    margin: 15%;
+    
+}
 
 .glow{
     box-shadow: 10px 10px 54px 45px rgba(237,236,218,1);
