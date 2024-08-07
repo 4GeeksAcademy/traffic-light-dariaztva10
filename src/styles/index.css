@@ -4,17 +4,18 @@ justify-content: center;
 display: grid;
 
 
-
 }
+
 .semaforo {
 width: 20vh;
-height: 50vh;
 background-color:rgb(31, 31, 31);
 padding: 10px;
 justify-content: center;
-display: grid;
+display: flex;
+flex-direction: column;
 border-radius: 25%;
 box-shadow: 3px 2px 4px 6px rgb(84, 84, 82);
+align-items: center;
 }
 
 .paloSemaforo {
@@ -26,39 +27,44 @@ box-shadow: 3px 2px 4px 6px rgb(84, 84, 82);
 }
 .red{
     background-color: red;
-    width: 12vh;
-    height: 12vh;
+    width: 11vh;
+    height: 11vh;
     border-radius: 50%;
+    margin: 4%;
+    
     
 }
 
 .yellow{
     background-color: yellow;
-    width: 12vh;
-    height: 12vh;
+    width: 11vh;
+    height: 11vh;
     border-radius: 99%;
+    margin: 4%;
 }
 
 .green{
     background-color: green;
-    width: 12vh;
-    height: 12vh;
+    width: 11vh;
+    height: 11vh;
     border-radius: 99%;
-    
+    margin: 4%;
 }
 .purple{
     
     background-color: purple;
-    width: 12vh;
-    height: 12vh;
+    width: 11vh;
+    height: 11vh;
     border-radius: 99%;
+    margin: 4%;
 }
 
 .especialMorado{
     background-color: rgb(255, 255, 255);
-    width: 12vh;
-    height: 12vh;
+    width: 11vh;
+    height: 11vh;
     border-radius: 99%;
+    margin: 4%;
    
 }
 .btn{
@@ -68,4 +74,5 @@ box-shadow: 3px 2px 4px 6px rgb(84, 84, 82);
 
 .glow{
     box-shadow: 10px 10px 54px 45px rgba(237,236,218,1);
+    margin: 4%;
 }
